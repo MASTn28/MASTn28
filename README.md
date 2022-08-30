@@ -31,6 +31,8 @@
 
 ![Wireframe image](/img/wireframe.png)
 
+Hello.
+
 <!-- <a href="wireframe.html"></a>
 
 <img src="img/wireframe.png">

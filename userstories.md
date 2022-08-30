@@ -21,3 +21,4 @@
 
     As a software developer, I want to assign tasks to myself, so that I can follow them and finish my project.
 
+These are our stories.
