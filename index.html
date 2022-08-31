@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do or Not To Do</title>
 </head>
+
 <body>
 
     <header>
-        <h1>To Do or Not To Do</h1>      
+        <h1>To Do or Not To Do</h1>
     </header>
 
     <main>
@@ -17,25 +21,45 @@
         <div>
             <form>
 
-                <label> Input Title-Text 
-                    <input placeholder="Name your to do list">
+                <label id="title">
+                    <input placeholder="Name Your To-Do List">
                 </label>
 
                 <br>
 
-                <label> Input List-Item 
+                <label id="taskOne">
                     <input placeholder="List Item Here">
+                    <select name="priority" id="priorityOne">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
                 </label>
 
                 <br>
 
-                <label> Input List-Item 
-                    <input>
+                <label id="taskTwo">
+                    <input placeholder="List Item Here">
+                    <select name="priority" id="priorityTwo">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
                 </label>
 
                 <br>
 
-                <button type="submit">Submit</button>
+                <label id="taskThree">
+                    <input placeholder="List Item Here">
+                    <select name="priority" id="priorityThree">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <button type="submit">Create List</button>
 
             </form>
 
@@ -45,6 +69,7 @@
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
