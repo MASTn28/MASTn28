@@ -2,14 +2,6 @@
 
 ## Minimum Viable Product
 
-
-format:
-
-- Short, simple, and open for interpretation
-- Presented to the developer (from the client) as the behavior they wish to see in their app. The user story should not present a solution.
-- Should clearly communicate the end goal of the user
-- Includes Acceptance Testing
-
 1. Add To-do List Title
     1. As a user I want to specify a title for my to-do-list.
     2. Test title field on form submission, and validate expected output appears on rendered list and in local storage
@@ -47,17 +39,15 @@ format:
 
 5. Send To-do List To Another Person
 
-
-
 ## Groceries
 
     As a user, I want to use this app for groceries, so that I can remember what items to buy.
 
-## Mother.
+## Mother
 
     As a mother, I want a chore chart, so that my kid does his chores.
 
-## Homeschool Teacher.
+## Homeschool Teacher
 
     As a teacher, I want to create a list, so that students will remember to finish their school work.
 
