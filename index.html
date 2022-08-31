@@ -19,7 +19,7 @@
     <main>
         <!-- /Using DIV to hold form input. -->
         <div>
-            <form>
+            <form id="taskForm">
 
                 <label id="title">
                     <input placeholder="Name Your To-Do List">
@@ -28,7 +28,7 @@
                 <br>
 
                 <label id="taskOne">
-                    <input placeholder="List Item Here">
+                    <input type="text" placeholder="List Item Here" maxlength="50" size="40">
                     <select name="priority" id="priorityOne">
                         <option value="low">Low</option>
                         <option value="medium">Medium</option>
@@ -36,10 +36,12 @@
                     </select>
                 </label>
 
+
+
                 <br>
 
                 <label id="taskTwo">
-                    <input placeholder="List Item Here">
+                    <input type="text" placeholder="List Item Here" maxlength="50" size="40">
                     <select name="priority" id="priorityTwo">
                         <option value="low">Low</option>
                         <option value="medium">Medium</option>
@@ -50,7 +52,7 @@
                 <br>
 
                 <label id="taskThree">
-                    <input placeholder="List Item Here">
+                    <input type="text" placeholder="List Item Here" maxlength="50" size="40">
                     <select name="priority" id="priorityThree">
                         <option value="low">Low</option>
                         <option value="medium">Medium</option>
